@@ -7,6 +7,10 @@ import { Quote } from "./Quote";
 const QuoteText = styled(Quote)`
   margin-top: 180px;
   margin-bottom: 100px;
+  @media (max-width: 767.98px) {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
 `;
 
 const QuoteInfoBlock = styled(Link)`

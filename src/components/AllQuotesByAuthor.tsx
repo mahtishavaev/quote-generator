@@ -11,6 +11,9 @@ const Title = styled.h2`
   color: #333333;
   max-width: 620px;
   margin: 0 auto;
+  @media (max-width: 767.98px) {
+    margin-top: 50px;
+  }
 `;
 
 export const AllQuotesByAuthor: FC = () => {

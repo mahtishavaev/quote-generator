@@ -16,4 +16,16 @@ export const Quote = styled.div`
     left: -100px;
     top: 0;
   }
+  @media (max-width: 991.98px) {
+    margin-left: 40px;
+    &::before {
+      left: -20px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    margin-left: 20px;
+    font-size: 24px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
 `;
